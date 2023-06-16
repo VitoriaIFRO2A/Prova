@@ -47,7 +47,16 @@ namespace prova
             string salario = md_salario.Text;
             int salarião = Convert.ToInt32(salario);
 
+            int Medico = funcaxinha;
+            int Ti = funcaxinha;
+            int Adm = funcaxinha;
+          
+            Funcionario funcionario = new Funcionario(Medico, Ti, Adm);
+            
+        }
 
+        private void md_salario_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

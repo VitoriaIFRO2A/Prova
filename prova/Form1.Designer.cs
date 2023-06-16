@@ -163,6 +163,7 @@
             md_salario.Name = "md_salario";
             md_salario.Size = new Size(100, 29);
             md_salario.TabIndex = 12;
+            md_salario.TextChanged += md_salario_TextChanged;
             // 
             // button2
             // 

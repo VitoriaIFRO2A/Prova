@@ -11,16 +11,16 @@ public class Funcionario
         int Salario = salario % 20;
         return Salario;
     }
-
-    public int Ti (int salario2)
+    
+    public int Ti (int salario)
     {
-        int Salario = salario2 + 5600;
+        int Salario = salario + 5600;
         return Salario;
     }
 
-    public int Adm (int salario3)
+    public int Adm (int salario)
     {
-        int Salario = salario3 % 15;
+        int Salario = salario % 15;
         int salarioo = Salario + 200;
         return salarioo;
     }
